@@ -54,7 +54,8 @@ consumer
 kafka-console-consumer.sh --topic test-topic --bootstrap-server localhost:9092 --from-beginning
 kafka-console-consumer.sh --topic awstopic --bootstrap-server ec2-3-110-218-174.ap-south-1.compute.amazonaws.com:8082 --from-beginning
 
-
+if kafka needs to called from lambda then it shoud have been hosted somewhere . Maybe aws ec2 would be the easiest one. 
+helper - https://www.youtube.com/watch?v=ZYPm-8sLiHQ&list=PLmCsXDGbJHdh-oat4ggg01iuMzuZ97GA3&index=36
 
 
 
